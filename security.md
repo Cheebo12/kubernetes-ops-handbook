@@ -24,12 +24,11 @@ kubectl apply -f <filename>.yaml
 
 Configur HTTPS communication between services using TLS certificates.
 
-'''bash
-
+```bash
 kubectl create secret tls tls-secret \
   --cert=cert.pem \
   --key=key.pem
-'''
+```
 TLS can be used in deployments to ensure encrypted communication and secure service exposure.
 
 
@@ -37,9 +36,9 @@ TLS can be used in deployments to ensure encrypted communication and secure serv
 
 Resource constraints also improve security by preventing denial of service attacks, resource exhaustion and unstable workloads
 
-'''yaml
+```yaml
 resources:
   limits:
     memory: "256Mi"
     cpu: "500m"
-'''
+```
