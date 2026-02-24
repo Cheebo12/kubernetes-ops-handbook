@@ -40,6 +40,6 @@ kubectl top pods
 
 ## Self-Healing and Restart Behavior
 
-The application was deployed using a Kubernetes Deployment, which ensures that failed containers are automatically restarted.
+The application I deployed using a Kubernetes Deployment ensures that failed containers are automatically restarted.
 When the container exited with a non-zero status code, Kubernetes restarted the pod automatically, maintaining the desired state.
 This behavior improves system reliability and reduces manual intervention.
