@@ -1,4 +1,4 @@
-# Kubernetes Operational Handbook
+# Kubernetes Operational Handbook 🚧 Work in Progress
 ## Overview
 
 This repository documents my hands-on learning and practical experience with Kubernetes while deploying and troubleshooting containerized applications in a local Minikube environment.
