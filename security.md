@@ -25,6 +25,7 @@ kubectl apply -f <filename>.yaml
 Configur HTTPS communication between services using TLS certificates.
 
 '''bash
+
 kubectl create secret tls tls-secret \
   --cert=cert.pem \
   --key=key.pem
