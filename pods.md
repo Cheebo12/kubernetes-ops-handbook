@@ -30,6 +30,14 @@ Logs are used for diagnosing runtime errors. This helps you identify crashes, da
 ```bash
 kubectl logs <pod-name>
 ```
+### Resource Usage and Performance
+
+This helps monitor CPU and memory usage
+
+```bash
+kubectl top pods
+```
+
 ## Self-Healing and Restart Behavior
 
 The application was deployed using a Kubernetes Deployment, which ensures that failed containers are automatically restarted.
